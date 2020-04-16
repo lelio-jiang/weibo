@@ -6,9 +6,15 @@ body {
   font-weight: normal;
 }
 
+#body{
+  margin:0 auto;
+  width:1200px;
+}
+
 nav.navbar.navbar-expand-lg {
   margin-bottom: 20px;
 }
+
 
 //$navbar-color: #3c3e42;
 //.navbar-inverse {

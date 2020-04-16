@@ -6,7 +6,9 @@
 </head>
 <body>
     @include('layouts._header')
-    @yield('content')
-    @include('layouts._footer')
+    <div id="body">
+        @yield('content')
+        @include('layouts._footer')
+    </div>
 </body>
 </html>
